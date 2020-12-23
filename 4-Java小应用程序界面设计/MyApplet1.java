@@ -3,7 +3,7 @@ import java.awt.*;
 public class MyApplet1 extends Applet {
 	Label label1 = new Label("		");
 	TextArea text1 = new TextArea(1,42);
-	Button ShowBtn = new Button("ÅĞ¶Ï");
+	Button ShowBtn = new Button("åˆ¤æ–­");
 	Frame frame1 = new Frame();
 	
 	public void init(){
@@ -20,9 +20,9 @@ public class MyApplet1 extends Applet {
 		text1.setText(text);
 		int a = Integer.parseInt(text);
 		if(a %2 == 0){
-			label1.setText(a + "ÊÇÅ¼Êı");
+			label1.setText(a + "æ˜¯å¶æ•°");
 		}else{
-			label1.setText(a + "²»ÊÇÅ¼Êı");
+			label1.setText(a + "ä¸æ˜¯å¶æ•°");
 		}
 		return true;
 	}

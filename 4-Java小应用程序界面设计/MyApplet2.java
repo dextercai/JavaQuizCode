@@ -1,10 +1,10 @@
 import java.applet.Applet;
 import java.awt.*;
 public class MyApplet2 extends Applet {
-	Label label1 = new Label("ÏÔÊ¾ºÍÒş²Ø´°Ìå");
+	Label label1 = new Label("æ˜¾ç¤ºå’Œéšè—çª—ä½“");
 	TextArea text1 = new TextArea(1,42);
-	Button ShowBtn = new Button("ÏÔÊ¾");
-	Button HideBtn = new Button("Òş²Ø");
+	Button ShowBtn = new Button("æ˜¾ç¤º");
+	Button HideBtn = new Button("éšè—");
 	Frame frame1 = new Frame();
 	Label label2 = new Label("		");
 	
@@ -20,14 +20,14 @@ public class MyApplet2 extends Applet {
 	
 	@Override
 	public boolean action(Event evt, Object what) {
-		if("ÏÔÊ¾".equals(what)){
+		if("æ˜¾ç¤º".equals(what)){
 			String text = text1.getText();
 			label2.setText(text);
 			frame1.setVisible(true);
-			frame1.setTitle("½á¹û");
+			frame1.setTitle("ç»“æœ");
 			frame1.setSize(300, 300);
 			
-		}else if("Òş²Ø".equals(what)){
+		}else if("éšè—".equals(what)){
 			frame1.setVisible(false);
 		}
 		

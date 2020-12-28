@@ -3,7 +3,7 @@ class Run1 implements Runnable {
 	public void run() {
 		for(int year = 2000; year <= 3000; year++){
 			if((year%4 == 0 && year % 100 != 0) || year % 400 == 0){
-				System.out.println(year + "ÊÇÈòÄê");
+				System.out.println(year + "æ˜¯é—°å¹´");
 			}
 			try {
 				Thread.sleep((int) (Math.random() * 1000));
@@ -20,7 +20,7 @@ class Run2 implements Runnable {
 	public void run() {
 		for(int num = 100; num <= 200; num++){
 			if(num % 3 ==0){
-				System.out.println(num + "±»3Õû³ý");
+				System.out.println(num + "è¢«3æ•´é™¤");
 			}
 			try {
 				Thread.sleep((int) (Math.random() * 1000));
@@ -37,7 +37,7 @@ class Run3 implements Runnable {
 	public void run() {
 		for(int num = 100; num <= 200; num++){
 			if(this.isPrimer(num)){
-				System.out.println(num + "ÊÇËØÊý");
+				System.out.println(num + "æ˜¯ç´ æ•°");
 			}
 			try {
 				Thread.sleep((int) (Math.random() * 1000));

@@ -19,12 +19,12 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		int a;
 		Scanner in = new Scanner(System.in);
-		System.out.println("ÊäÈëÒ»¸öÊı£º");
+		System.out.println("è¾“å…¥ä¸€ä¸ªæ•°ï¼š");
 		a = in.nextInt();
 		if(isPrimenum(a)){
-			System.out.println("ÊÇËØÊı");
+			System.out.println("æ˜¯ç´ æ•°");
 		}else{
-			System.out.println("²»ÊÇËØÊı");
+			System.out.println("ä¸æ˜¯ç´ æ•°");
 		}
 
 	}

@@ -22,7 +22,7 @@ public class SelfArray {
 		this.a = _a;
 	}
 	public void output(){
-		System.out.println("×Ü³¤¶È£º" + this.l + "¸÷ÔªËØÎª£º");
+		System.out.println("æ€»é•¿åº¦ï¼š" + this.l + "å„å…ƒç´ ä¸ºï¼š");
 		for(int i = 0; i < this.l; i++){
 			System.out.print(this.a[i] + " ");
 		}

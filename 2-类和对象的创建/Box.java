@@ -47,7 +47,7 @@ public class Box {
 	
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.println("请输入长宽高以及密度");
+		System.out.println("璇疯緭鍏ラ暱瀹介珮浠ュ強瀵嗗害");
 		double l,w,h,p;
 		l = in.nextDouble();
 		w = in.nextDouble();
